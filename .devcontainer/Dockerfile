@@ -36,7 +36,7 @@ RUN rm -rf /var/lib/apt/lists/* \
 # create non-root-user & sudo support (default: name -> developer, user/group ID -> 1000)
 # ref: https://aka.ms/vscode-remote/containers/non-root-user.
 ARG USERNAME=developer
-ARG USER_UID=1000
+ARG USER_UID=1001
 ARG USER_GID=$USER_UID
 RUN groupadd --gid $USER_GID $USERNAME \
     && useradd -s /bin/bash --uid $USER_UID --gid $USER_GID -m $USERNAME \

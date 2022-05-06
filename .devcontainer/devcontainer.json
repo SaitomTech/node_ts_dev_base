@@ -9,7 +9,7 @@
 	"workspaceFolder": "/xxxx",
 	// "postCreateCommand": "npm install",
 	"shutdownAction": "stopCompose",
-	"remoteUser": "node",
+	"remoteUser": "developer",
 	"extensions": [
 		"dbaeumer.vscode-eslint"
 	],
