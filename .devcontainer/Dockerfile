@@ -61,6 +61,8 @@ ENV PATH $PATH:~/.local/bin/
 # [Optional] Uncomment if you want to install more global node packages
 # RUN su node -c "npm install -g <your-package-list -here>"
 
+# Add Path for prettier
+ENV PATH $PATH:./node_modules/.bin
 
 # restore setting
 ENV DEBIAN_FRONTEND=
